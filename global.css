@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --ice: #f5f5f5;
+    --black: #000;
+    --blue: #003057;
+    --light-blue: #1874c5;
+    --purple: #383773;
+    --gray: #494c4e;
+}
+
+body { 
+    background-color: var(--ice);
+}
+
+body, input, button, textarea, label, select, option {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
